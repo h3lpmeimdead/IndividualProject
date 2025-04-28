@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8595774466601224c91b36ff42c00f61, type: 3}
+  m_Name: SecondCharacter4
+  m_EditorClassIdentifier: 
+  _name: IceShot
+  _cooldownTimer: 0
+  _activeTimer: 0.5
+  _power4SFX: {fileID: 8300000, guid: 35b9d06db632a88419045d3da7ac7b6d, type: 3}

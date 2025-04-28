@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36592d373231e9646ac2f7bb690ab913, type: 3}
+  m_Name: CharacterDataBase
+  m_EditorClassIdentifier: 
+  _characters:
+  - CharacterName: Character 1
+    CharacterSprite: {fileID: 21300000, guid: 9a690275612803543a2a4333ff3bf94b, type: 3}
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Power: {fileID: 11400000, guid: b23998b0aeabf364e99e859843fc0fdf, type: 2}
+    PlayerMovementStats: {fileID: 11400000, guid: 363c3b38821c4b44bbfcd76007c7841d, type: 2}
+  - CharacterName: Character 2
+    CharacterSprite: {fileID: 21300000, guid: 9c65325858e6cc14b96c3a461f6d6728, type: 3}
+    Color: {r: 0, g: 0.7770784, b: 1, a: 1}
+    Power: {fileID: 11400000, guid: f387add5e9291e4438a5ca152420622c, type: 2}
+    PlayerMovementStats: {fileID: 11400000, guid: 6f65e2d4d7fe81b4c9e158b662f0d684, type: 2}
+  - CharacterName: Character 3
+    CharacterSprite: {fileID: 21300000, guid: 9db365bca6110624b809d48efcab9c38, type: 3}
+    Color: {r: 0.13089275, g: 1, b: 0, a: 1}
+    Power: {fileID: 11400000, guid: d4286d1dcbe196244b1675e15d075c0e, type: 2}
+    PlayerMovementStats: {fileID: 11400000, guid: 3e629e31ef26d55498c361bac49daafe, type: 2}
+  - CharacterName: Character 4
+    CharacterSprite: {fileID: 21300000, guid: ad9159eb2adc2c94187622f39973fcca, type: 3}
+    Color: {r: 0.9933696, g: 1, b: 0, a: 1}
+    Power: {fileID: 11400000, guid: 215dd1266e10f6a4183c76c4de45c691, type: 2}
+    PlayerMovementStats: {fileID: 11400000, guid: 72917eebe90b0e94eb5f78fba07ab982, type: 2}
+  - CharacterName: Character 5
+    CharacterSprite: {fileID: 21300000, guid: e64886b0129b97a4aa60d487a39310fe, type: 3}
+    Color: {r: 1, g: 0, b: 0.9203229, a: 1}
+    Power: {fileID: 11400000, guid: b12b49c0fe1c021428f2bb483c17724f, type: 2}
+    PlayerMovementStats: {fileID: 11400000, guid: 2f38d8f4e2ea55b4f882a4d1cd6a9c16, type: 2}

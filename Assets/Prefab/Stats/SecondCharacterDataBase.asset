@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1788efd20066a7843bd80cd2d8d590fc, type: 3}
+  m_Name: SecondCharacterDataBase
+  m_EditorClassIdentifier: 
+  _characters:
+  - CharacterName: Character 1
+    CharacterSprite: {fileID: 21300000, guid: 9a690275612803543a2a4333ff3bf94b, type: 3}
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Power: {fileID: 11400000, guid: 762ecd56ae8cdfc4698ab3139f8ab68e, type: 2}
+    AIMovementStats: {fileID: 11400000, guid: a7b624655251236448a553f41e0e675e, type: 2}
+  - CharacterName: Character 2
+    CharacterSprite: {fileID: 21300000, guid: 9c65325858e6cc14b96c3a461f6d6728, type: 3}
+    Color: {r: 0, g: 0.7764706, b: 1, a: 1}
+    Power: {fileID: 11400000, guid: 64f3f70eb5df2264bbb8150c19f74b50, type: 2}
+    AIMovementStats: {fileID: 11400000, guid: 121978131c514d0498c8fa4a00050ce8, type: 2}
+  - CharacterName: Character 3
+    CharacterSprite: {fileID: 21300000, guid: 9db365bca6110624b809d48efcab9c38, type: 3}
+    Color: {r: 0.12941177, g: 1, b: 0, a: 1}
+    Power: {fileID: 11400000, guid: 20d52e182d542c14e83b1aadefea0f9f, type: 2}
+    AIMovementStats: {fileID: 11400000, guid: a2afa35047318fa45aefa5dfcd3acea2, type: 2}
+  - CharacterName: Character 4
+    CharacterSprite: {fileID: 21300000, guid: ad9159eb2adc2c94187622f39973fcca, type: 3}
+    Color: {r: 0.99215686, g: 1, b: 0, a: 1}
+    Power: {fileID: 11400000, guid: a2c8d79d4b8b1df459ee368e2cad7cef, type: 2}
+    AIMovementStats: {fileID: 11400000, guid: d8857412fa5f6c54e860516498a225c1, type: 2}
+  - CharacterName: Character 5
+    CharacterSprite: {fileID: 21300000, guid: e64886b0129b97a4aa60d487a39310fe, type: 3}
+    Color: {r: 1, g: 0, b: 0.92156863, a: 1}
+    Power: {fileID: 11400000, guid: d962a6b1b4dff614699d15fb8743a5a8, type: 2}
+    AIMovementStats: {fileID: 11400000, guid: 36ed5ccb5ffb2c2499156afd62f6d787, type: 2}
